@@ -1,16 +1,7 @@
-# freecodecamp_auth
+# User authentication
 
-A new Flutter project.
+The objective with this pcoject are explore how to build secure user authentication in Flutter using Firebase for authentication and the Bloc state management pattern for handling application state. 
 
-## Getting Started
+By the end, I will have a solid understanding of how to integrate Firebase authentication and implement a secure login and sign-up process using Bloc.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Flowchart](./assets/Flowcharts.png "Flowchart")
