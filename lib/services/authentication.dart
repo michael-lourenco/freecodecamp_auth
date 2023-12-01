@@ -6,7 +6,7 @@ class AuthService {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
   /// create user
-  Future<UserModel?> singUpUser(
+  Future<UserModel?> signUpUser(
     String email,
     String password,
   ) async {
@@ -28,8 +28,8 @@ class AuthService {
     return null;
   }
 
-  /// singOutUser
-  Future<void> singOutUser() async {
+  /// signOutUser
+  Future<void> signOutUser() async {
     final User? firebaseUser = FirebaseAuth.instance.currentUser;
   if(firebaseUser != null) {
     await FirebaseAuth.instance.signOut();
